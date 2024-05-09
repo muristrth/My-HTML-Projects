@@ -49,3 +49,28 @@ aside{
 .intro{
     font-family: Helvetica, sans-serif !important;
 }
+.topnav{
+    background-color: aquamarine;
+    overflow: hidden;
+}
+.topnav a{
+    color: black;
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 16px;
+}
+.topnav a:hover{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    
+}
+.top-right-nav{
+    float: right;
+
+}
+.li{
+    list-style-type: none;
+}
