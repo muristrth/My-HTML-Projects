@@ -1,0 +1,212 @@
+h1{
+    color: black;
+    font: size 300%;
+    font-family:Times;
+    text-align:center
+}
+hr{
+    margin: 0em;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+.copy{
+  margin-top: 30px; 
+  outline: none; 
+  cursor: pointer; 
+  font-family:Helvetica;
+  text-align: left; 
+  font-size: 20px
+}
+.headline1{
+  font-family: "Bree+Serif";
+  font-size: 80px; 
+  text-align: center;
+}
+.headline{
+  font-family: "Bree+Serif";
+  font-size: 60px; 
+  text-align: center;   
+}
+.headline2{
+  font-size:26px;
+  font-family: "Bree+Serif";
+  text-align: center;  
+}
+
+body{
+    background-color: white;
+    color: black;
+    
+}
+.warning{
+  text-align: center; 
+  font-size: 30px; 
+  background-color: rgb(0, 0, 0); 
+  color: rgb(255, 255, 255); 
+  border-color: rgb(233, 83, 19);
+  margin-top: 35px; 
+  outline: none; 
+  cursor: pointer; 
+  background-color: rgb(0, 0, 0); 
+  font-family: Oswald;
+
+}
+.form{
+    color:black;
+    text-decoration: wavy;
+    margin-top: 35px; 
+    outline: none; 
+    cursor: pointer; 
+    background-color: rgb(197, 238, 199); 
+    font-family: Oswald, Helvetica, sans-serif !important;
+    text-align: left; 
+    font-size: 20px;
+
+}
+.img{
+    background-color: #ffffff;
+    text-align: center; 
+}
+aside{
+    text-align: center;
+    width: "400";
+    height: "200";
+}
+.intro{
+    font-family: Helvetica;
+    border-radius: 1px;
+    border-color: black;
+}
+.topnav{
+    background-color: aquamarine;
+    overflow: hidden;
+}
+.topnav a{
+    color: black;
+    float: left;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 16px;
+}
+.topnav a:hover{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    
+}
+.top-nav-right{
+    float: right;
+}
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.button{
+  font-size: 24px;
+  font-family: Impact;
+  background-color: rgb(187, 240, 187);
+  color: rgb(2, 39, 2);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 100px;
+}
+.button:hover{
+  color: rgb(255, 145, 0);
+    background-color: rgba(15, 4, 53, 0.452);
+    text-decoration: none;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
