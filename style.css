@@ -32,18 +32,10 @@ hr{
   font-family: "Bree+Serif";
   text-align: center;  
 }
-.btn{
-  font-size: xx-large;
-  text-align: center;
-  font-family:fantasy;
-  padding:20px; 
-  border-radius: 30px;
-  border-color: black;
-}
+
 body{
     background-color: white;
     color: black;
-    margin: 1mm 50mm;
     
 }
 .warning{
@@ -81,8 +73,7 @@ aside{
     height: "200";
 }
 .intro{
-    font-family: Helvetica, sans-serif !important;
-    background-color: beige;
+    font-family: Helvetica;
     border-radius: 1px;
     border-color: black;
 }
@@ -104,7 +95,7 @@ aside{
     text-decoration: none;
     
 }
-.top-right-nav{
+.top-nav-right{
     float: right;
 }
 * {box-sizing: border-box}
@@ -125,23 +116,23 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* Set a style for all buttons */
-.btn{
-  background-color: #04AA6D;
-  color: white;
+.button{
+  font-size: 24px;
+  font-family: Impact;
+  background-color: rgb(187, 240, 187);
+  color: rgb(2, 39, 2);
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  border-radius: 100px;
 }
-.btn a:hover{
-  color: white;
-    background-color: rgba(17, 172, 17, 0.452);
+.button:hover{
+  color: rgb(255, 145, 0);
+    background-color: rgba(15, 4, 53, 0.452);
     text-decoration: none;
-}
-button:hover {
-  opacity:1;
 }
 
 /* Extra styles for the cancel button */
@@ -163,14 +154,14 @@ button:hover {
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
   background-color: #474e5d;
   padding-top: 50px;
 }
